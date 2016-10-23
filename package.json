@@ -19,5 +19,9 @@
   "dependencies": {
     "express": "^4.14.0",
     "node-sass": "^3.10.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-sass": "^2.3.2"
   }
 }

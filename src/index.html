@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <link rel="stylesheet" type="text/css" href="statics/bootstrap/dist/css/bootstrap.min.css" />
-    <link rel="stylesheet" type="text/css" href="statics/css/news.css" />
+    <link rel="stylesheet" type="text/css" href="css/news.css" />
     <title>Title</title>
 </head>
 <body>
     <script type="text/javascript" src="statics/angular/angular.min.js"></script>
-    <script type="text/javascript" src="app/client_app.js"></script>
+    <script type="text/javascript" src="js/client_app.js"></script>
     <div ng-controller="StoreController as store">
         <div ng-repeat="product in store.products">
             <h1>  {{product.name}} </h1>
