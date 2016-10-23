@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/daliaApple/news#readme",
   "dependencies": {
-    "express": "^4.14.0"
+    "express": "^4.14.0",
+    "node-sass": "^3.10.1"
   }
 }
